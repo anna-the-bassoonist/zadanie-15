@@ -1,0 +1,25 @@
+
+.kwadrat-1{
+    width: 100px;
+    height: 100px;
+    background-color: forestgreen;
+    display: inline-block;
+}
+.kwadrat-2{
+    width:100px;
+    height: 100px;
+    background-color:peachpuff;
+    display: inline-block;
+}
+.kwadrat-3{
+    width: 100px;
+    height: 100px;
+    background-color: darkseagreen;
+    display: inline-block;
+}
+.kwadrat-4{
+    width: 100px;
+    height: 100px;
+    background-color:beige;
+    display: inline-block;
+}
