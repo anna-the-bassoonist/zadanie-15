@@ -1,0 +1,13 @@
+.kwadrat{
+    width: 100px;
+    height: 100px;
+}
+.kwadrat-1{
+    border: 1px solid green;
+}
+.kwadrat-2{
+    border: 1px solid orange;
+}
+.kwadrat-3{
+    border: 1px solid #000;
+}
