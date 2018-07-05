@@ -10,3 +10,50 @@
 .contact a{
     color: blueviolet;
 }
+#about-us{
+    background-color: aquamarine;
+}
+
+.kwadrat-1{
+    width: 100px;
+    height: 100px;
+    background-color: forestgreen;
+    display: inline-block;
+}
+.kwadrat-2{
+    width:100px;
+    height: 100px;
+    background-color:peachpuff;
+    display: inline-block;
+}
+.kwadrat-3{
+    width: 100px;
+    height: 100px;
+    background-color: darkseagreen;
+    display: inline-block;
+}
+.kwadrat-4{
+    width: 100px;
+    height: 100px;
+    background-color:beige;
+    display: inline-block;
+}
+.kwadrat{
+    width: 100px;
+    height: 100px;
+}
+.kwadrat1{
+    border: 1px solid green;
+}
+.kwadrat2{
+    border: 1px solid orange;
+}
+.kwadrat3{
+    border: 1px solid #000;
+}
+.button{
+    height: 25px;
+    width: 80px;
+    background-color: skyblue;
+    color: brown;
+}

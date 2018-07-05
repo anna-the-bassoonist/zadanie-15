@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css" type="text/css">
-    <title>Zadanie 14</title>
+    <title>Zadanie 15</title>
     
 </head>
 
@@ -12,21 +12,61 @@
     <nav>
         <ul>
             <li  class="about-us" >
-            <a href="html/about-us.html">About us</a>
+            <a href="#about-us">About us</a>
                </li>
             
             <li class="skills">
-            <a href="html/skills.html">Skills</a></li>
+            <a href="#skills">Skills</a></li>
             
-            <li class="portfolio"><a href="html/portfolio.html">Portfolio</a>
+            <li class="portfolio"><a href="#portfolio">Portfolio</a>
             </li>
             
             <li class="contact">
-            <a href="html/contact.html">Contact</a></li>
+            <a href="#contact">Contact</a></li>
         </ul>
     </nav>
    
+   <section id="about-us">
+        <h1>About us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga numquam dolorum labore quo mollitia. Earum eos atque quod libero porro. Ipsam voluptas ab non nemo suscipit alias quod accusamus porro.</p>
+        
+    </section>
+    <section id="skills">
+    <h1>Kwadraty</h1>
+        <div class="kwadrat-1">kwadrat1</div>
+        <div class="kwadrat-2">kwadrat2</div>
+        <div class="kwadrat-3">kwadrat3</div>
+        <div class="kwadrat-4">kwadrat4</div>
    
+    </section>
+       <section id="portfolio">
+        <h1>Portfolio</h1>
+            <div class="kwadrat1 kwadrat">kwadrat1</div>
+            <div class="kwadrat2 kwadrat">kwadrat2</div>
+            <div class="kwadrat3 kwadrat">kwadrat3</div>
+        
+    </section>
+       <section id="contact">
+    <h1>Contact</h1>
+    <address>
+        Karolina Kowalska<br>
+        ul. Warszawska 53 <br>
+        39-234 Warszawa <br>
+        Email: <a href="mailto:k.kowalska@gamail.com">Karolina Kowalska</a>
+        
+    </address><br>
+    <form>
+       Imię: <br>
+        <input type="text" name="imię" required> <br>
+        Temat: <br>
+        <input type="text" required>
+        <br>
+        Wiadomość: <br>
+        <textarea name="wiadomość" id="" cols="30" rows="10" required></textarea>
+        <br>
+        <button class="button" type="submit">Wyślij</button>
+    </form>
+    </section>
 </body>
 
 </html>
